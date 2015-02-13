@@ -17,7 +17,7 @@ setup(name='dateminer',
         'unittest2',
     ],
     test_suite='unittest2.collector',
-    packages=find_packages(),
+    py_modules=['dateminer'],
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
